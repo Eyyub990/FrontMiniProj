@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+*:focus-visible {
+    outline: none;
+  }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Robota, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flex{
+  display: flex;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cdcdcd;
+}
+
+.justify-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.margin-top{
+  margin-top: 100px;
+}
+
+.text-soft{
+  width: 50px;
+  color: #96A2B4;
+}

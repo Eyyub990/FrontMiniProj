@@ -1,0 +1,295 @@
+{
+    "projects":[
+        {
+            "id":1,
+            "projectName":"ERP System",
+            "description":"All the Lorem Ipsum generators on the Internet tend to repeat necessary, making this the first true generator on the Internet. ",
+            "created":"2020-11-01",
+            "teamLeader":"Jens Brincker",
+            "priority":"Low",
+            "deadline":"2021-17-04",
+            "comments":10,
+            "bug":5,
+            "status":"Running"
+        },
+        {
+            "id":2,
+            "projectName":"Shopping Application",
+            "description":"There are many variations of passages of Lorem Ipsum available, but suffered alteration in some form, by injected humour.",
+            "created":"2021-08-25",
+            "teamLeader":"Jay Soni",
+            "priority":"High",
+            "deadline":"2024-03-13",
+            "comments":14,
+            "bug":10,
+            "status":"New Project"
+        },
+        {
+            "id":3,
+            "projectName":"J&K Sons Website",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC",
+            "created":"2020-09-12",
+            "teamLeader":"Mark Hay",
+            "priority":"Low",
+            "deadline":"2021-17-04",
+            "comments":12,
+            "bug":8,
+            "status":"On Hold"
+        },
+        {
+            "id":4,
+            "projectName":"Video Streaming App",
+            "description":"All the Lorem Ipsum generators on the Internet tend to repeat necessary, making this the first true generator on the Internet. ",
+            "created":"2019-06-22",
+            "teamLeader":"Airi Satou",
+            "priority":"High",
+            "deadline":"2023-04-13",
+            "comments":7,
+            "bug":4,
+            "status":"Finished"
+        },
+        {
+            "id":5,
+            "projectName":"Food Delivery App",
+            "description":"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
+            "created":"2019-04-16",
+            "teamLeader":"Jens Brincker",
+            "priority":"Low",
+            "deadline":"2021-01-17",
+            "comments":25,
+            "bug":11,
+            "status":"New Project"
+        },
+        {
+            "id":6,
+            "projectName":"Construction Website",
+            "description":"Pellentesque habitant morbi tristique senectus et netus et malesuada but suffered alteration in some form fames ac turpis egestas.",
+            "created":"2020-07-31",
+            "teamLeader":"Sarah Smith",
+            "priority":"Medium",
+            "deadline":"2022-04-22",
+            "comments":41,
+            "bug":11,
+            "status":"Running"
+        },
+        {
+            "id":7,
+            "projectName":"Ecommerce Website",
+            "description":"The standard chunk of Lorem Ipsum used since the 1500s is reproduced below generators on the Internet tend for those interested. ",
+            "created":"2018-05-19",
+            "teamLeader":"Mark Hay",
+            "priority":"High",
+            "deadline":"2021-11-26",
+            "comments":5,
+            "bug":2,
+            "status":"On Hold"
+        },
+        {
+            "id":8,
+            "projectName":"Chat Application",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC",
+            "created":"2020-07-31",
+            "teamLeader":"Airi Satou",
+            "priority":"High",
+            "deadline":"2020-08-10",
+            "comments":7,
+            "bug":4,
+            "status":"New Project"
+        }
+    ],
+    "employees":[
+        {
+            "id": 1,
+            "name": "John Doe",
+            "department": "Java",
+            "role": "Developer",
+            "degree": "C.E.",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-25-02"
+        },
+        {
+            "id": 2,
+            "name": "Sarah Smith",
+            "department": "Designing",
+            "role": "Leader",
+            "degree": "Msc.IT",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-12-02"
+        },
+        {
+            "id": 3,
+            "name": "rajesh",
+            "department": "Marketing",
+            "role": "Manager",
+            "degree": "MCA",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-25-02"
+        },
+        {
+            "id": 4,
+            "name": "Jay Soni",
+            "department": "Java",
+            "role": "Designer",
+            "degree": "C.E.",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-25-02"
+        },
+        {
+            "id": 5,
+            "name": "Rajesh",
+            "department": "Accounting",
+            "role": "Developer",
+            "degree": "M.E.",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-25-02"
+        },
+        {
+            "id": 6,
+            "name": "John Doe",
+            "department": "Developing",
+            "role": "Developer",
+            "degree": "C.E.",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-25-02"
+        },
+        {
+            "id": 7,
+            "name": "Cara Stevens",
+            "department": "Testing",
+            "role": "Developer",
+            "degree": "M.E.",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-25-02"
+        },
+        {
+            "id": 8,
+            "name": "Jay Soni",
+            "department": "Testing",
+            "role": "Tester",
+            "degree": "C.E.",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-25-02"
+        },
+        {
+            "id": 9,
+            "name": "Angelica Ramos",
+            "department": "Java",
+            "role": "Tester",
+            "degree": "M.E.",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-25-02"
+        },
+        {
+            "id": 10,
+            "name": "Airi Satou",
+            "department": "Designing",
+            "role": "Tester",
+            "degree": "C.E.",
+            "mobile": 1234567890,
+            "email": "test@email.com",
+            "joiningDate": "2018-25-02"
+        }
+    ], 
+    "leaves":[
+        {
+            "id":1,
+            "name": "Jens Brincker",
+            "leaveType":"Sick Leave",
+            "leaveFrom":"2021-22-05",
+            "leaveTo":"2021-27-05",
+            "days":6,
+            "status":"Approved"
+        },
+        {
+            "id":2,
+            "name": "Sarah Smith",
+            "leaveType":"Maternity Leave",
+            "leaveFrom":"1985-14-05",
+            "leaveTo":"1985-14-04",
+            "days":4,
+            "status":"Rejected"
+        },
+        {
+            "id":3,
+            "name": "Edna Gilbert",
+            "leaveType":"Maternity Leave",
+            "leaveFrom":"1985-10-04",
+            "leaveTo":"1983-11-08",
+            "days":1,
+            "status":"Rejected"
+        },
+        {
+            "id":4,
+            "name": "Shelia Osterberg",
+            "leaveType":"Medical Leave",
+            "leaveFrom":"04-10-1985",
+            "leaveTo":"05-20-1988",
+            "days":5,
+            "status":"Approved"
+        },
+        {
+            "id":5,
+            "name": "Barbara Garland",
+            "leaveType":"Casual Leave",
+            "leaveFrom":"04-10-1985",
+            "leaveTo":"05-20-1988",
+            "days":6,
+            "status":"Approved"
+        },
+        {
+            "id":6,
+            "name": "Jens Brincker",
+            "leaveType":"Sick Leave",
+            "leaveFrom":"04-10-1985",
+            "leaveTo":"04-18-1987",
+            "days":4,
+            "status":"Rejected"
+        },
+        {
+            "id":7,
+            "name": "Jens Brincker",
+            "leaveType":"Sick Leave",
+            "leaveFrom":"04-10-1985",
+            "leaveTo":"11-08-1983",
+            "days":1,
+            "status":"Rejected"
+        },
+        {
+            "id":8,
+            "name": "Jens Brincker",
+            "leaveType":"Sick Leave",
+            "leaveFrom":"04-10-1985",
+            "leaveTo":"04-18-1987",
+            "days":5,
+            "status":"Approved"
+        },
+        {
+            "id":9,
+            "name": "Jens Brincker",
+            "leaveType":"Sick Leave",
+            "leaveFrom":"04-10-1985",
+            "leaveTo":"05-20-1988",
+            "days":5,
+            "status":"Approved"
+        },
+        {
+            "id":10,
+            "name": "Jens Brincker",
+            "leaveType":"Sick Leave",
+            "leaveFrom":"04-10-1985",
+            "leaveTo":"04-14-1985",
+            "days":4,
+            "status":"Rejected"
+        }
+
+    ]
+}

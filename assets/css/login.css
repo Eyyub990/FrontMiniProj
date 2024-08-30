@@ -1,0 +1,253 @@
+@import url(reset.css);
+
+a{
+    color: rgb(13, 126, 207);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left{
+    height: 100vh;
+    width: 50%;
+    background-position: center center;
+}
+
+.content-right{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-start{
+    height: 25vh;
+    width: 100%;
+}
+
+.content-middle{
+    height: 50vh;
+    width: 100%;
+}
+
+.content-end{
+    height: 20vh;
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.header{
+    font-weight: 300;
+    width: 100%;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.col-signup{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-col-1{
+    width: 140px;
+    margin-left: 20%;
+}
+
+.link-signup{
+    font-size: larger;
+}
+
+.role-btns{
+    margin-top: 5%;
+    width: 55%;
+    margin-left: 20%;
+}
+
+.btn-admin{
+    position: absolute;
+    font-size: x-large;
+    width: max-content;
+    height: max-content;
+    padding: 12px 20px;
+    font: 14px Roboto;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(2, 75, 184);
+    color: white;
+    transition: all 0.7s;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 128);
+}
+
+.btn-admin:hover{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    padding: 20px 25px;
+    font: 14px Roboto;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 128);
+    transition: all 0.7s;
+}
+
+.btn-employee{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    padding: 12px 20px;
+    font: 14px Roboto;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(184, 2, 148);
+    color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 128);
+    transition: all 0.7s;
+    margin-left: 10%;
+}
+
+.btn-employee:hover{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    padding: 20px 25px;
+    font: 14px Roboto;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(255, 0, 242);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 128);
+    transition: all 0.7s;
+    margin-left: 10%;
+}
+
+.btn-client{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    padding: 12px 20px;
+    font: 14px Roboto;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(184, 54, 2);
+    color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 128);
+    transition: all 0.7s;
+    margin-left: 22%;
+}
+
+.btn-client:hover{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    padding: 20px 25px;
+    font: 14px Roboto;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(255, 98, 0);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 128);
+    transition: all 0.7s;
+    margin-left: 22%;
+}
+
+.input-positions{
+    display: flex;
+    flex-direction: column;
+    margin-left:19%;
+    justify-content: space-between;
+}
+
+.input-decoration{
+    margin: 1%;
+    width: 68%;
+    height: 8vh;
+}
+
+.checkbox{
+    margin-left: 20%;
+    height: 15px;
+    width: 15px;
+}
+
+.link-password{
+    margin-left: 20%;
+}
+
+.btn-login{
+    margin-top: 2%;
+    margin-left: 10%;
+    position: absolute;
+    font-size: x-large;
+    width: 28%;
+    height: 10%;
+    font: 14px Roboto;
+    border: none;
+    border-radius: 2%;
+    background-color: rgb(2, 75, 184);
+    color: white;
+    transition: all 0.7s;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 128);
+}
+
+.btn-login:hover{
+    margin-top: 2%;
+    margin-left: 10%;
+    position: absolute;
+    width: 30%;
+    height: 12%;
+    font: 14px Roboto;
+    border: none;
+    border-radius: 2%;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 128);
+    transition: all 0.7s;
+}
+
+.btn-social{
+    margin: 0% 10% 0% 0%;
+    background-color: white;
+    transition: all 0.7s;
+}
+
+.btn-social:hover{
+    margin: 0% 10% 0% 0%;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.btn-social:hover > .fa-google,
+.btn-social:hover > .fa-facebook-f,
+.btn-social:hover > .fa-twitter,
+.btn-social:hover > .fa-linkedin-in{
+    background-color: rgb(0, 106, 255);
+    color: white;
+    font-size: x-large;
+    transition: all 0.7s;
+}
+
+.fa-google,
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in{
+    border: 1px solid rgb(0, 106, 255);
+    padding: 8px;
+    border-radius: 10%;
+    color: rgb(0, 106, 255);
+    font-size: x-large;
+    transition: all 0.7s;
+}

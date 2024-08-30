@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <script src="https://kit.fontawesome.com/4b6feb7e96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/allProjects.css">
+    <script src="../assets/js/allProjects.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar-container-end">
+                <button class="btn-expand" onclick="toggleFullScreen()">
+                    <i class="fa-solid fa-expand btn-size"></i>
+                </button>
+                <button class="btn-flag">
+                    <img class="flag-size" src="../assets/images/us.jpg" alt="">
+                </button>
+                <div class="flags-section active">
+                    <button class="language"><img src="../assets/images/us.jpg" alt="" class="img-size">English</button>
+                    <button class="language"><img src="../assets/images/azerbaijan.png" alt="" class="img-size">Azerbaijani</button>
+                    <button class="language"><img src="../assets/images/germany.jpg" alt="" class="img-size">German</button>
+                </div>
+                <a class="btn-about-us" href="aboutUs.html">
+                    <i class="fa-solid fa-question"></i>
+                </a>
+                <button class="btn-user">
+                    <span>Ella Jones</span>
+                    <img class="user-image-size-small" src="../assets/images/admin.jpg" alt="">
+                </button>
+                <div class="account-section active">
+                    <a class="link-settings" href="#">
+                        <i class="fa-solid fa-gear"></i><div class="link-text">Settings</div>
+                    </a>    
+                    <a class="link-account" href="#">
+                        <i class="fa-solid fa-user"></i>
+                        Account
+                    </a>
+                    <a class="link-logout" href="login.html">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        Log Out
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container flex">
+        <div class="sidebar">
+            <div class="sidebar-start">
+                <div class="logo-container">
+                    <img src="../assets/images/logo.png" alt="">
+                    <span class="navbar-logo-name">Kuber</span>
+                </div>
+                <button class="btn" onclick="expandTaskbar()">
+                    <i class="fa-solid fa-thumbtack btn-size"></i>
+                </button>
+            </div>
+            <div class="user-info">
+                <img class="user-image-size-big" src="../assets/images/admin.jpg" alt="">
+                <span>Sarah Smith</span>
+                <span>Admin</span>
+            </div>
+            <ul class="taskbar">
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-solid fa-display"></i>
+                            <span class="hide-menu">Dashboard</span>
+                        </div> 
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                    <ul class="row-list">
+                        <li><a class="row" href="index.html">dashboard 1</a></li>
+                        <li><a class="row" href="dashboard2.html">dashboard 2</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-solid fa-book"></i>
+                            <span class="hide-btn">Projects</span>
+                        </div>
+                        <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="row-list">
+                        <li><a class="row" href="allProjects.html">All Projects</a></li>
+                        <li><a class="row" href="addProject.html">Add Project</a></li>
+                        <li><a class="row" href="estimates.html">Estimates</a></li>
+                        <li><a class="row" href="projectDetails.html">Project Details</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-solid fa-user-group"></i>
+                        <span class="hide-btn">Employees</span>
+                        </div>
+                        <i class="fa-solid fa-angle-right"></i></a>
+                        <ul class="row-list">
+                            <li><a class="row" href="allEmployees.html">All Employees</a></li>
+                            <li><a class="row" href="addEmployees.html">Add Employee</a></li>
+                            <li><a class="row" href="#">Edit Employee</a></li>
+                            <li><a class="row" href="#">Employee Profile</a></li>
+                        </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-solid fa-square-poll-vertical"></i>
+                        <span class="hide-btn">Leave Management</span>
+                        </div>
+                        <i class="fa-solid fa-angle-right"></i></a>
+                        <ul class="row-list">
+                            <li><a class="row" href="allLeaveRequests.html">All Leave Requests</a></li>
+                            <li><a class="row" href="leaveBalance.html">Leave Balance</a></li>
+                            <li><a class="row" href="leaveTypes.html">Leave Types</a></li>
+                        </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-solid fa-mug-hot"></i>
+                        <span class="hide-btn">Holidays</span>
+                        </div>
+                    <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="row-list">
+                        <li><a href="allHolidays.html" class="row">All Holidays</a></li>
+                        <li><a href="addHoliday.html" class="row">Add Holiday</a></li>
+                        <li><a href="editHoliday.html" class="row">Edit Holiday</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-regular fa-calendar-check"></i>
+                        <span class="hide-btn">Attendance</span>
+                        </div>
+                    <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="row-list">
+                        <li><a href="todaysAttendance.html" class="row">Today's Attendance</a></li>
+                        <li><a href="employeeAttendance.html" class="row">Employee Attendance</a></li>
+                        <li><a href="attendanceSheet.html" class="row">Attendance Sheet</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-regular fa-user"></i>
+                        <span class="hide-btn">Clients</span>
+                        </div>
+                    <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="row-list">
+                        <li><a href="allClients.html" class="row">All Clients</a></li>
+                        <li><a href="addClient.html" class="row">Add Client</a></li>
+                        <li><a href="editClient.html" class="row">Edit Client</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-solid fa-book-open"></i>
+                        <span class="hide-btn">Accounts</span>
+                        </div>
+                    <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="row-list">
+                        <li><a href="allAccounts.html" class="row">All Accounts</a></li>
+                        <li><a href="addAccount.html" class="row">Add Account</a></li>
+                        <li><a href="invoice.html" class="row">Invoice</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-regular fa-clipboard"></i>
+                        <span class="hide-btn">Payroll</span>
+                        </div>
+                    <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="row-list">
+                        <li><a href="employeeSalary.html" class="row">Employee Salary</a></li>
+                        <li><a href="payship.html" class="row">Payship</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content" href="#">
+                        <div class="flex">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span class="">Leaders</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-solid fa-medal"></i>
+                        <span class="hide-btn">Jobs</span>
+                        </div>
+                    <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="row-list">
+                        <li><a href="jobsList.html" class="row">Jobs List</a></li>
+                        <li><a href="resumes.html" class="row">Resumes</a></li>
+                        <li><a href="candidates.html" class="row">Candidates</a></li>
+                        <li><a href="shortlistCandidates.html" class="row">Shortlist Candidates</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a class="hide-btn justify-content">
+                        <div class="flex">
+                            <i class="fa-regular fa-newspaper"></i>
+                        <span class="hide-btn">Reports</span>
+                        </div>
+                    <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="row-list">
+                        <li><a href="leaveReport.html" class="row">Leave Report</a></li>
+                        <li><a href="expenseReport.html" class="row">Expense Report</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content"> 
+            <h2 class="header-text">All Projects</h2>
+            <div class="item-1">
+                <div class="head">
+                    <div class="col">
+                        <h2 class="color-gray">New Projects</h2>
+                        <h5>3 projects</h5>
+                    </div>
+                    <div class="col">
+                        <h2 class="color-gray">Running</h2>
+                        <h5>2 projects</h5>
+                    </div>
+                    <div class="col">
+                        <h2 class="color-gray">On Hold</h2>
+                        <h5>2 projects</h5>
+                    </div>
+                    <div class="col">
+                        <h2 class="color-gray">Finished</h2>
+                        <h5>1 projects</h5>
+                    </div>
+                </div>
+                    <ul class="cards">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
